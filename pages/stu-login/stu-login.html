@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="stu-login.css" />
   </head>
   <body>
-    <div class="card p-4">
+    <div class="container card p-4 my-sm-4">
       <div class="row">
         <div class="col-auto col-md-6 p-5">
-          <div class="">
+          <div class="heading">
             <h1>Student Login</h1>
           </div>
-          <div class="row justify-content-center">
+          <div>
             <form>
               <div
                 class="row align-items-center justify-content-center mb-3 p-3"
@@ -53,12 +53,20 @@
               </div>
               <div class="row justify-content-sm-center justify-content-center">
                 <div class="col-auto">
-                  <button type="button" class="btn btn-outline-info px-5">
+                  <button
+                    id="backBtnStuLogin"
+                    type="button"
+                    class="btn btn-outline-info px-5 m-1"
+                  >
                     <p class="h6">Back</p>
                   </button>
                 </div>
                 <div class="col-auto">
-                  <button type="button" class="btn btn-outline-info px-5">
+                  <button
+                    id="stuLoginBtn"
+                    type="button"
+                    class="btn btn-outline-info px-5 m-1"
+                  >
                     <p class="h6">Login</p>
                   </button>
                 </div>
@@ -66,6 +74,7 @@
             </form>
           </div>
         </div>
+
         <div class="col-auto col-md-6">
           <img src="../../images/stuLog.jpg" class="img-thumbnail" alt="stu" />
         </div>
@@ -77,5 +86,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="stu-login.js"></script>
   </body>
 </html>
